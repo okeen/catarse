@@ -1,4 +1,5 @@
 source :gemcutter
+source "http://gems.github.com"
 
 gem 'rails', '3.2.7'
 gem 'rake', '0.9.2.2'
@@ -83,7 +84,7 @@ gem 'bourbon'
 gem 'paypal-express', :require => 'paypal'
 
 # Server
-gem 'thin'
+#gem 'thin'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.5'
@@ -112,3 +113,5 @@ group :development do
 end
 
 gem 'unicorn'
+
+gem "heroku"

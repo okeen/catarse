@@ -23,6 +23,7 @@ GIT
 
 GEM
   remote: http://rubygems.org/
+  remote: http://gems.github.com/
   specs:
     RedCloth (4.2.9)
     actionmailer (3.2.7)
@@ -174,6 +175,11 @@ GEM
       supermodel
       vimeo
     hashie (1.2.0)
+    heroku (2.25.0)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.1)
+      rest-client (~> 1.6.1)
+      rubyzip
     hike (1.2.1)
     http_accept_language (1.0.2)
     httparty (0.6.1)
@@ -237,6 +243,7 @@ GEM
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
     net-ssh (2.5.2)
+    netrc (0.7.5)
     nokogiri (1.4.7)
     oauth (0.4.6)
     oauth2 (0.6.1)
@@ -468,6 +475,7 @@ DEPENDENCIES
   formtastic
   has_scope
   has_vimeo_video (>= 0.0.4)
+  heroku
   http_accept_language
   httparty (~> 0.6.1)
   httpclient (= 2.2.5)
@@ -507,7 +515,6 @@ DEPENDENCIES
   slim-rails
   spectator-validates_email
   steak (~> 1.1.0)
-  thin
   tumblr-api
   uglifier (>= 1.0.3)
   unicode
